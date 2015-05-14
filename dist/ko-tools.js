@@ -51,7 +51,7 @@ KoTools.prototype.getObservable = function( record, path ) {
 };
 
 KoTools.prototype.getViewList = function( viewmodel, list ) {
-	return new Viewlist( this.ko, viewmodel, list );
+	return new ViewList( this.ko, viewmodel, list );
 };
 
 if (typeof exports === 'object') {
@@ -70,7 +70,7 @@ if (typeof exports === 'object') {
  *
  * @constructor
  */
-var ViewList = function( viewModel, list ) {
+var ViewList = function( ko, viewModel, list ) {
 	this._list = list;
 	this._list.subscribe( this.updateEntries.bind( this ) );
 	this._standardTemplate = null;

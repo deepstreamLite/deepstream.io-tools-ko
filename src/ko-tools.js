@@ -7,7 +7,7 @@ KoTools.prototype.getObservable = function( record, path ) {
 };
 
 KoTools.prototype.getViewList = function( viewmodel, list ) {
-	return new Viewlist( this.ko, viewmodel, list );
+	return new ViewList( this.ko, viewmodel, list );
 };
 
 if (typeof exports === 'object') {

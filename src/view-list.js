@@ -7,7 +7,7 @@
  *
  * @constructor
  */
-var ViewList = function( viewModel, list ) {
+var ViewList = function( ko, viewModel, list ) {
 	this._list = list;
 	this._list.subscribe( this.updateEntries.bind( this ) );
 	this._standardTemplate = null;
