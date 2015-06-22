@@ -13,7 +13,9 @@ KoTools.prototype.getViewList = function( viewmodel, list ) {
 if (typeof exports === 'object') {
 	module.exports = KoTools;
 } else if (typeof define === 'function' && define.amd) {
-	define(KoTools);
+	define(function(){
+		return KoTools;
+	});
 } else {
 	window.KoTools = KoTools;
 }
