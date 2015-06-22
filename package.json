@@ -1,6 +1,6 @@
 {
   "name": "deepstream.io-tools-ko",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tools to integrate knockout.js with deepstream.io",
   "main": "dist/ko-tools.min.js",
   "directories": {
