@@ -1,6 +1,6 @@
 var getObservable = function( ko, record, path ) {
-		
-	var downStreamFormatter = null, 
+
+	var downStreamFormatter = null,
 		upStreamFormatter = null,
 		observable = ko.observable( record.get( path ) ),
 		onRecordChange,
@@ -13,9 +13,9 @@ var getObservable = function( ko, record, path ) {
 			observable( downStreamFormatter( value ) );
 		}
 	};
-	
+
 	record.subscribe( path, onRecordChange );
-	
+
 	subscription = observable.subscribe(function( value ){
 		if( upStreamFormatter === null ) {
 			record.set( path, value );

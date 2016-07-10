@@ -2,9 +2,7 @@
   "name": "deepstream.io-tools-ko",
   "version": "0.0.4",
   "homepage": "http://deepstream.io",
-  "authors": [
-    "Wolfram Hempel <hempel.wolfram@gmail.com>"
-  ],
+  "author": "deepstreamHub GmbH",
   "description": "The browser and node client for deepstream.io",
   "main": "dist/ko-tools.min.js",
   "moduleType": [

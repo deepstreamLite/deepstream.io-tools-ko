@@ -3,8 +3,8 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON( 'package.json' ),
 		release: {
 			options: {
-				github: { 
-					repo: 'hoxton-one/deepstream.io-tools-ko',
+				github: {
+					repo: 'deepstreamIO/deepstream.io-tools-ko',
 					usernameVar: 'GITHUB_USERNAME',
 					passwordVar: 'GITHUB_PASSWORD'
 				}

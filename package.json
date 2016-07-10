@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoxton-one/deepstream.io-tools-ko.git"
+    "url": "https://github.com/deepstreamIO/deepstream.io-tools-ko.git"
   },
   "devDependencies": {
     "deepstream.io-client-js": "latest",
@@ -23,10 +23,10 @@
     "jasmine-node": "1.14.5",
     "knockout": "latest"
   },
-  "author": "Wolfram Hempel",
+  "author": "deepstreamHub GmbH",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hoxton-one/deepstream.io-tools-ko/issues"
+    "url": "https://github.com/deepstreamIO/deepstream.io-tools-ko/issues"
   },
   "homepage": "http://deepstream.io"
 }
